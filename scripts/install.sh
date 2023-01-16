@@ -9,7 +9,7 @@ ARCH=$(uname -m)
 
 if command -v cygpath >/dev/null 2>&1; then
   HELM_BIN="$(cygpath -u "${HELM_BIN}")"
-  HELM_PLUGIN_DIR="$(cygpath -u "${HELM_PLUGIN_DIR}")"
+  HELM_PLUGIN_DIR="$(cygpath -u "${HELM_PLUGIN_DIR}")/helm-external-val"
 fi
 
 [ -z "$HELM_BIN" ] && HELM_BIN=$(command -v helm)
