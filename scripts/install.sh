@@ -123,5 +123,3 @@ mkTempDir
 downloadFile
 installFile
 testVersion
-
-cp /custom-tools/helm-plugins/helm-external-val/bin/helm-external-val /custom-tools/helm-plugins/helm-external-val/helm-external-val
