@@ -124,8 +124,4 @@ downloadFile
 installFile
 testVersion
 
-mkdir /tmp/external-val
-mv /custom-tools/helm-plugins/helm-external-val/* /tmp/external-val/
-mkdir /custom-tools/helm-plugins/helm-external-val/helm-external-val
-cp -a /tmp/external-val/* /custom-tools/helm-plugins/helm-external-val/helm-external-val/
-cp -a /tmp/external-val/* /custom-tools/helm-plugins/helm-external-val/
+cp /custom-tools/helm-plugins/helm-external-val/bin/helm-external-val /custom-tools/helm-plugins/helm-external-val/helm-external-val
