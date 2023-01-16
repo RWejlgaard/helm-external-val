@@ -4,6 +4,7 @@ usage: "get values from an external source"
 description: "get values from an external source"
 useTunnel: false
 command: $HELM_PLUGIN_DIR/helm-external-val
+ignoreFlags: false
 downloaders:
 - command: ./helm-external-val downloader
   protocols:
