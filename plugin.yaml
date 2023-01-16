@@ -6,7 +6,7 @@ useTunnel: false
 #command: "$HELM_PLUGIN_DIR/helm-external-val"
 ignoreFlags: false
 downloaders:
-- command: "bin/helm-external-val downloader"
+- command: "bin/helm-external-val downloader "
   protocols:
   - "cm"
   - "secret"
